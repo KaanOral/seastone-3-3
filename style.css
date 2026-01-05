@@ -105,7 +105,7 @@ top: 50%;
 }
 
 .hidden__menu{
-     background-color: rgba(255, 255, 255, 0.447);
+    background-color: rgba(255, 255, 255, 0.75);
      backdrop-filter: blur(10px);
     block-size: 100vh;
     inline-size: 100%;
@@ -739,3 +739,4 @@ display: none;
    }
     
 }
+
