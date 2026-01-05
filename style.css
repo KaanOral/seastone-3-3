@@ -707,12 +707,9 @@ display: none;
 
 .footer__para{
   padding: 0;
-  margin-right: 32px;
 }
 
-.input__email{
-    margin-right: 24px;
-}
+
 .email__input {
     padding: 0 50px;
     
@@ -740,5 +737,6 @@ display: none;
 
     
 }
+
 
 
