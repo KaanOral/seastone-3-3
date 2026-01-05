@@ -734,4 +734,8 @@ display: none;
    .homepage__landing--title{
     font-size: 32px;
    }
+ .chinook__links{
+    font-size: 18px;
+   }
+    
 }
