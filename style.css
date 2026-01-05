@@ -105,7 +105,7 @@ top: 50%;
 }
 
 .hidden__menu{
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255);
      backdrop-filter: blur(10px);
     block-size: 100vh;
     inline-size: 100%;
@@ -725,8 +725,11 @@ display: none;
 
 .about__us--img, .spring__clam--img, .seastone__family__gathering--img {
     width: 90vw;
- 
 }
+
+     .chinook__links{
+    font-size: 18px;
+   }
 
 }
 
@@ -734,9 +737,8 @@ display: none;
    .homepage__landing--title{
     font-size: 32px;
    }
- .chinook__links{
-    font-size: 18px;
-   }
+
     
 }
+
 
