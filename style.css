@@ -733,6 +733,14 @@ display: none;
   font-size: 20px;
   transition: all 300ms ease;
 }
+
+      #movie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    width: 80vw;
+}
     
 
 }
@@ -752,6 +760,7 @@ display: none;
 
     
 }
+
 
 
 
