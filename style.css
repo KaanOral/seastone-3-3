@@ -742,8 +742,17 @@ display: none;
     font-size: 32px;
    }
 
+    #movie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    width: 80vw;
+}
+
     
 }
+
 
 
 
