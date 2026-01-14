@@ -105,7 +105,7 @@ top: 50%;
 }
 
 .hidden__menu{
-    background-color: rgba(255, 255, 255);
+     background-color: rgba(255, 255, 255, 0.75);
      backdrop-filter: blur(10px);
     block-size: 100vh;
     inline-size: 100%;
@@ -228,13 +228,16 @@ margin-left: 200px;
     
 }
 
-#movie{
+.movie__container{
+    width: 100vw;
+}
+
+.movie{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 12px;
-    width: 80vw;
-
+    width: 100vw;
 }
 
 
@@ -263,8 +266,7 @@ margin-left: 200px;
 }
 
 .email__input{
-    width: 9rem ;
-    padding: 8px;
+    padding: .75rem 9rem;
     border: 3px solid rgb(25, 129, 163);
 }
 
@@ -698,6 +700,13 @@ display: none;
  justify-content: center;
 }
 
+.home__page--video{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 24px;
+}
 
 .landing__text--para{
    width: 200px;
@@ -708,12 +717,15 @@ display: none;
 
 .footer__para{
   padding: 0;
+ 
 }
 
-
+.input__email{
+    margin-right: 24px;
+}
 .email__input {
     padding: 0 50px;
-    
+    padding: .75rem 9rem;
 }
 
 .footer__email{
@@ -723,25 +735,8 @@ display: none;
 
 .about__us--img, .spring__clam--img, .seastone__family__gathering--img {
     width: 90vw;
+ 
 }
-
-     .chinook__links{
-    font-size: 18px;
-   }
-
-    .chinook__link:hover{
-  font-size: 20px;
-  transition: all 300ms ease;
-}
-
-      #movie{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 12px;
-    width: 50vw;
-}
-    
 
 }
 
@@ -750,21 +745,21 @@ display: none;
     font-size: 32px;
    }
 
-    #movie{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 12px;
-    width: 50vw;
+   .chinook__links{
+    font-size: 18px;
+   }
+
+   .chinook__link:hover{
+  font-size: 20px;
+  transition: all 300ms ease;
 }
 
-    
+.movie{
+display: flex;
+align-items: center;
+justify-content: center;
+    width: 100vw;
 }
 
 
-
-
-
-
-
-
+}
