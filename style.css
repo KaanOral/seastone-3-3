@@ -65,7 +65,7 @@ HAMBURGER MENU
     background-color: white;
     border: 4px solid rgb(51, 50, 50);
     border-radius: 5px;
-    margin: 8px;
+    margin: 4px;
     cursor: pointer;
     z-index: 999;
     display: none;
@@ -763,3 +763,4 @@ justify-content: center;
 
 
 }
+
