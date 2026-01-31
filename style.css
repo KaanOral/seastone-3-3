@@ -183,7 +183,7 @@ body {
 }
 
 .homepage__landing--page {
-  block-size: 100%;
+  block-size: 100vw;
   inline-size: 100%;
   background-image: url(./pics/landing__page.JPG);
   background-position: center;
@@ -750,3 +750,4 @@ ENROLMENT
                 </div>
                 </form>
               </div>*/
+
