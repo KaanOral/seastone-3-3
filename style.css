@@ -237,7 +237,7 @@ margin-left: 200px;
 }
 
 .movie{
-
+  padding-block: 24px;
     width: 100vw;
 }
 
@@ -764,6 +764,7 @@ justify-content: center;
 
 
 }
+
 
 
 
