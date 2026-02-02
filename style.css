@@ -729,10 +729,6 @@ ENROLMENT
     font-size: 20px;
     transition: all 300ms ease;
   }
-
-  .movie {
-    width: 90%;
-  }
 }
 
 /*<h2 class="footer__email">Join our newsletter to recieve updates.</h2>*/
@@ -749,6 +745,7 @@ ENROLMENT
                 </div>
                 </form>
               </div>*/
+
 
 
 
